@@ -8,8 +8,8 @@ const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 
 console.log(`==============================`);
 console.log(``);
-console.log("     /stas View processes");
-console.log("     /listen Check ports");
+console.log("     /stas 查看进程");
+console.log("     /listen 查看端口");
 console.log("     /start 手动启动脚本");
 console.log("     /res 手动恢复dashboard.tar.gz");
 console.log("     /backup 手动备份");

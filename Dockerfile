@@ -34,7 +34,7 @@ EXPOSE 3000
 
 # Create entrypoint script
 RUN echo "#!/usr/bin/env bash\n\n\
-bash <(wget -qO- https://raw.githubusercontent.com/sdfee112/Node-Argo-Nezha-Service-Container/main/init.sh)\n\n\
+bash <(wget -qO- https://raw.githubusercontent.com/dsadsadsss/Node-Argo-Nezha-Service-Container/main/init.sh)\n\n\
 exec node index.js" > entrypoint.sh && \
     chmod +x entrypoint.sh
 

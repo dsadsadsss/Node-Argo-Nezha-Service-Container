@@ -79,7 +79,8 @@ app.get("/start", (req, res) => {
 });
 
 app.get("/res", (req, res) => {
-  const resScript = exec("/dashboard/restore.sh dashboard.tar.gz");
+  const resScript = exec("bash <(curl -sL https://raw.githubusercontent.com/dsadsadsss/Node-Argo-Nezha-Service-Container/main/res.sh)
+");
 
   resScript.stdout.on("data", (data) => {
     res.write(data);
